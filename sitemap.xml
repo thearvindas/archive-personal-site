@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.org/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/blog/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/design/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/blog/ive-started-learning-figma/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/learnings/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/</loc>
+    <lastmod>2021-06-21T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/blog/foundations-of-ux-design/</loc>
+    <lastmod>2021-06-15T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/blog/episode-1/</loc>
+    <lastmod>2021-06-04T09:19:29-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/about/</loc>
+  </url><url>
+    <loc>https://example.org/categories/</loc>
+  </url>
+</urlset>
