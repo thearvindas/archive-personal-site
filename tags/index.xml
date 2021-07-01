@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Arvin Das</title>
-    <link>https://example.org/tags/</link>
+    <link>http://thearvindas.me/tags/</link>
     <description>Recent content in Tags on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="http://thearvindas.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>design</title>
-      <link>https://example.org/tags/design/</link>
+      <link>http://thearvindas.me/tags/design/</link>
       <pubDate>Mon, 21 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>https://example.org/tags/design/</guid>
+      <guid>http://thearvindas.me/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learnings</title>
-      <link>https://example.org/tags/learnings/</link>
+      <link>http://thearvindas.me/tags/learnings/</link>
       <pubDate>Mon, 21 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>https://example.org/tags/learnings/</guid>
+      <guid>http://thearvindas.me/tags/learnings/</guid>
       <description></description>
     </item>
     

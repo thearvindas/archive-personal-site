@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Arvin Das</title>
-    <link>https://example.org/categories/</link>
+    <link>http://thearvindas.me/categories/</link>
     <description>Recent content in Categories on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {year}</copyright><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year}</copyright><atom:link href="http://thearvindas.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
