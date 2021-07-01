@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>learnings on Arvin Das</title>
-    <link>http://thearvindas.me/tags/learnings/</link>
+    <link>https://thearvindas.github.io/tags/learnings/</link>
     <description>Recent content in learnings on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="http://thearvindas.me/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing if website works</title>
-      <link>http://thearvindas.me/blog/test/</link>
+      <link>https://thearvindas.github.io/blog/test/</link>
       <pubDate>Wed, 30 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>http://thearvindas.me/blog/test/</guid>
+      <guid>https://thearvindas.github.io/blog/test/</guid>
       <description>Hello</description>
     </item>
     
     <item>
       <title>I&#39;ve Started Learning Figma</title>
-      <link>http://thearvindas.me/blog/ive-started-learning-figma/</link>
+      <link>https://thearvindas.github.io/blog/ive-started-learning-figma/</link>
       <pubDate>Mon, 21 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>http://thearvindas.me/blog/ive-started-learning-figma/</guid>
+      <guid>https://thearvindas.github.io/blog/ive-started-learning-figma/</guid>
       <description>The more I&amp;rsquo;ve been exploring the world of design, the more I&amp;rsquo;ve realized the immense power of Figma. Naturally, I had to get my hands dirty right away.
 I play around with Adobe Ps and Ai quite often, so it didn&amp;rsquo;t take too much time to get going with Figma. I was immediately amazed by the brilliant workflow, tools, and simply the experience of using it. I watched a few YouTube videos to understand how things work.</description>
     </item>
     
     <item>
       <title>I Took a Foundations of UX Design Course — Here&#39;s What I Learnt</title>
-      <link>http://thearvindas.me/blog/foundations-of-ux-design/</link>
+      <link>https://thearvindas.github.io/blog/foundations-of-ux-design/</link>
       <pubDate>Tue, 15 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>http://thearvindas.me/blog/foundations-of-ux-design/</guid>
+      <guid>https://thearvindas.github.io/blog/foundations-of-ux-design/</guid>
       <description>I&amp;rsquo;ve always been a huge fan of design. The moment I got some free time, I made sure to make the most out of it — I took this course on Coursera and wrote down what I found most important so as to document my learnings as well as, maybe, pass it on =)
 Here&amp;rsquo;s what I learnt. 
  What is UX? 

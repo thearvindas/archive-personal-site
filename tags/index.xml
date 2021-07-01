@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Arvin Das</title>
-    <link>http://thearvindas.me/tags/</link>
+    <link>https://thearvindas.github.io/tags/</link>
     <description>Recent content in Tags on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="http://thearvindas.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>design</title>
-      <link>http://thearvindas.me/tags/design/</link>
+      <link>https://thearvindas.github.io/tags/design/</link>
       <pubDate>Wed, 30 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>http://thearvindas.me/tags/design/</guid>
+      <guid>https://thearvindas.github.io/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learnings</title>
-      <link>http://thearvindas.me/tags/learnings/</link>
+      <link>https://thearvindas.github.io/tags/learnings/</link>
       <pubDate>Wed, 30 Jun 2021 09:19:29 -0400</pubDate>
       
-      <guid>http://thearvindas.me/tags/learnings/</guid>
+      <guid>https://thearvindas.github.io/tags/learnings/</guid>
       <description></description>
     </item>
     
