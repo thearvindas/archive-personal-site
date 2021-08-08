@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>olympics, insurjo, and atomics habits</title>
+      <link>https://thearvindas.github.io/blog/olympics-insurjo-and-atomics-habits/</link>
+      <pubDate>Sat, 07 Aug 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/blog/olympics-insurjo-and-atomics-habits/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kick-off, git, and summer break&#39;21</title>
       <link>https://thearvindas.github.io/blog/kick-off-git-and-summer-break-21/</link>
       <pubDate>Sun, 01 Aug 2021 09:19:29 -0400</pubDate>
       
       <guid>https://thearvindas.github.io/blog/kick-off-git-and-summer-break-21/</guid>
-      <description>Hello!insert drumroll, perhaps some applause(?)
+      <description>Hello!insert drumroll, perhaps some applause
+(Just kidding.)
 I am so, so pumped to be writing the first blog for my website. Building something of my own has always been this huge goal of mine and to see thearvindas.me come to life is unreal to me.
 The process started way back at the start of June. I started looking up static site generators and, needless to say, I was very flustered by the endless resources and results.</description>
     </item>
