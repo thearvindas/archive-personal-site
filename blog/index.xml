@@ -7,48 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I&#39;m Now on Dribbble!</title>
-      <link>https://thearvindas.github.io/blog/im-now-on-dribbble/</link>
-      <pubDate>Sat, 24 Jul 2021 09:19:29 -0400</pubDate>
+      <title>kick-off, git, and summer break&#39;21</title>
+      <link>https://thearvindas.github.io/blog/kick-off-git-and-summer-break-21/</link>
+      <pubDate>Sun, 01 Aug 2021 09:19:29 -0400</pubDate>
       
-      <guid>https://thearvindas.github.io/blog/im-now-on-dribbble/</guid>
-      <description>It’s been a couple of days since I’ve started out on Dribbble, and I must say, it’s been an exciting experience. It’s incredible to see so much creativity, ideas, mockups, everything-cool-about-design all in one place.
-Seeing everyone’s work, I decided I needed something to show for as well; hence, I began making mini-projects. I’ve made two so far, really proud of how they’ve come out!
-Neon Blue Login/Sign-Up Zomato — Dark Theme RevampCheck them out on my Dribbble here !</description>
-    </item>
-    
-    <item>
-      <title>I&#39;ve Started Learning Figma</title>
-      <link>https://thearvindas.github.io/blog/ive-started-learning-figma/</link>
-      <pubDate>Mon, 21 Jun 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/blog/ive-started-learning-figma/</guid>
-      <description>The more I&amp;rsquo;ve been exploring the world of design, the more I&amp;rsquo;ve realized the immense power of Figma. Naturally, I had to get my hands dirty right away.
-I play around with Adobe Ps and Ai quite often, so it didn&amp;rsquo;t take too much time to get going with Figma. I was immediately amazed by the brilliant workflow, tools, and simply the experience of using it. I watched a few YouTube videos to understand how things work.</description>
-    </item>
-    
-    <item>
-      <title>I Took a Foundations of UX Design Course — Here&#39;s What I Learnt</title>
-      <link>https://thearvindas.github.io/blog/foundations-of-ux-design/</link>
-      <pubDate>Tue, 15 Jun 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/blog/foundations-of-ux-design/</guid>
-      <description>I&amp;rsquo;ve always been a huge fan of design. The moment I got some free time, I made sure to make the most out of it — I took this course and wrote down what I found most important so as to document my learnings as well as, maybe, pass it on.
-Here&amp;rsquo;s what I learnt. 
- What is UX? 
-UX stands for User Experience. It is how a user feels about interacting with or experiencing a product.</description>
-    </item>
-    
-    <item>
-      <title>I Built a Website (Clearly)</title>
-      <link>https://thearvindas.github.io/blog/i-built-a-website/</link>
-      <pubDate>Fri, 04 Jun 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/blog/i-built-a-website/</guid>
-      <description>Hello! Welcome to my website! This website is the result of a couple of things:
- My growing desire to build something A need for a platform to put my thoughts and learnings out Inspiration from Manan Agarwal , a senior of mine at college  My plans for this place are simple: to keep adding posts about what I learn and hopefully, add some value to anyone interested in design!</description>
+      <guid>https://thearvindas.github.io/blog/kick-off-git-and-summer-break-21/</guid>
+      <description>Hello!insert drumroll, perhaps some applause(?)
+I am so, so pumped to be writing the first blog for my website. Building something of my own has always been this huge goal of mine and to see thearvindas.me come to life is unreal to me.
+The process started way back at the start of June. I started looking up static site generators and, needless to say, I was very flustered by the endless resources and results.</description>
     </item>
     
   </channel>

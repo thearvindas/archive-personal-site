@@ -6,25 +6,6 @@
     <description>Recent content in Tags on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>design</title>
-      <link>https://thearvindas.github.io/tags/design/</link>
-      <pubDate>Sat, 24 Jul 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learnings</title>
-      <link>https://thearvindas.github.io/tags/learnings/</link>
-      <pubDate>Mon, 21 Jun 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/learnings/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>© {year}</copyright><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
