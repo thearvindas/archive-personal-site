@@ -6,6 +6,16 @@
     <description>Recent content in Tags on Arvin Das</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© {year}</copyright><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 07 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>misc</title>
+      <link>https://thearvindas.github.io/tags/misc/</link>
+      <pubDate>Sat, 07 Aug 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/misc/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
