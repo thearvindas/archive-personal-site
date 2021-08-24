@@ -1,3 +1,3 @@
 # thearvindas.me
 
-The code repo to my thought repo.
+The code repo to my website.
