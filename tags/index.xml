@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 23 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>misc</title>
+      <link>https://thearvindas.github.io/tags/misc/</link>
+      <pubDate>Mon, 30 Aug 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/misc/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>learnings</title>
       <link>https://thearvindas.github.io/tags/learnings/</link>
@@ -23,15 +32,6 @@
       <pubDate>Mon, 23 Aug 2021 09:19:29 -0400</pubDate>
       
       <guid>https://thearvindas.github.io/tags/product/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>misc</title>
-      <link>https://thearvindas.github.io/tags/misc/</link>
-      <pubDate>Tue, 03 Aug 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/misc/</guid>
       <description></description>
     </item>
     
