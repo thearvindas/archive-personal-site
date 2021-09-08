@@ -7,31 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 08 Sep 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>crypto</title>
-      <link>https://thearvindas.github.io/tags/crypto/</link>
-      <pubDate>Wed, 08 Sep 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/crypto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learnings</title>
-      <link>https://thearvindas.github.io/tags/learnings/</link>
-      <pubDate>Wed, 08 Sep 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/learnings/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 30 Aug 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>misc</title>
       <link>https://thearvindas.github.io/tags/misc/</link>
       <pubDate>Mon, 30 Aug 2021 09:19:29 -0400</pubDate>
       
       <guid>https://thearvindas.github.io/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learnings</title>
+      <link>https://thearvindas.github.io/tags/learnings/</link>
+      <pubDate>Mon, 23 Aug 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/learnings/</guid>
       <description></description>
     </item>
     
