@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Arvin Das</title>
+    <link>https://thearvindas.github.io/work/</link>
+    <description>Recent content in Work on Arvin Das</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 23 Sep 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RCA: Uber&#39;s rides from RGIA have dropped by 50% in the last week</title>
+      <link>https://thearvindas.github.io/work/rca-ubers-rides-from-rgia-have-dropped-by-50-in-the-last-week/</link>
+      <pubDate>Thu, 23 Sep 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/work/rca-ubers-rides-from-rgia-have-dropped-by-50-in-the-last-week/</guid>
+      <description>Photo by Dan Gold on UnsplashThis is my attempt at a root-cause analysis on the following problem statement:
+Uber&amp;rsquo;s rides from RGIA have dropped by 50% over the last week. Diagnose the problem.
+50% is a massive number. Our first check will be on the metrics:
+ Are we getting the correct metrics on our dashboard? Is there any technical hitch which may be causing incorrect data to appear?</description>
+    </item>
+    
+  </channel>
+</rss>

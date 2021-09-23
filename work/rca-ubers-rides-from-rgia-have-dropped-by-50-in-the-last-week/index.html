@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3Z6Z1XEMQZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3Z6Z1XEMQZ');
+</script>
+
+  
+  
+  <title>RCA: Uber&#39;s rides from RGIA have dropped by 50% in the last week | Arvin Das</title>
+
+
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="Documenting my first root-cause analysis.">
+  <meta name="keywords" content="arvin das , uber , root-cause analysis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="RCA: Uber&#39;s rides from RGIA have dropped by 50% in the last week" />
+  <meta name="twitter:description" content="Documenting my first root-cause analysis."/>
+  <meta name="twitter:site" content="@thearvindas" />
+  <meta name="twitter:creator" content="https://twitter.com/thearvindas" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+
+  
+
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.fdec3aaad3438b1f1df60513b018b1a36ebe57d55881c68dc5110425acd89dd2.css" integrity="sha256-/ew6qtNDix8d9gUTsBixo26&#43;V9VYgcaNxREEJazYndI="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.2e2248180d922a3ccb796918943919849224d2ddf54890c469234032326ee748.css" integrity="sha256-LiJIGA2SKjzLeWkYlDkZhJIk0t31SJDEaSNAMjJu50g="/>
+  
+
+
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/thearvindas.github.io\/work\/rca-ubers-rides-from-rgia-have-dropped-by-50-in-the-last-week\/",
+      "name": "RCA: Uber\u0027s rides from RGIA have dropped by 50% in the last week",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": "Documenting my first root-cause analysis."
+    }
+  
+  </script>
+
+
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  href="/about/">about</a>
+      </li>
+    
+      <li>
+        <a  href="/blog">blog</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/work">work</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">RCA: Uber&#39;s rides from RGIA have dropped by 50% in the last week</h1>
+            <time datetime="2021-09-23 09:19:29 -0400 -0400" class="post__date">Sep 23 2021</time> 
+          </header>
+          <article class="post__content">
+              
+<p><img src="/uber.jpg" alt="Picture"></p>
+<center>
+<small>
+  Photo by <a href="https://unsplash.com/@danielcgold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dan Gold</a> on <a href="https://unsplash.com/s/photos/uber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </small>
+</center>
+<p>This is my attempt at a root-cause analysis on the following problem statement:</p>
+<p><strong>Uber&rsquo;s rides from RGIA have dropped by 50% over the last week. Diagnose the problem.</strong></p>
+<p>50% is a massive number. Our first check will be on the <strong>metrics</strong>:</p>
+<ol>
+<li>Are we getting the correct metrics on our dashboard?</li>
+<li>Is there any technical hitch which may be causing incorrect data to appear?</li>
+</ol>
+<p>Next, we can look at <strong>external circumstances that directly affect Uber</strong>. These may seem very obvious but have high impact on our outcomes.</p>
+<ol>
+<li>Has RGIA introduced some new regulation for Uber that is affecting our operations?</li>
+<li>Has availability of Uber dropped because of factors like:
+<ul>
+<li>Lack of drivers/drivers unsatisfied/not preferring to drive to and from RGIA</li>
+<li>Uber booth has moved further away from the passenger exit, hence leading to a drop in activation, customer experience, etc</li>
+</ul>
+</li>
+<li>Has passenger traffic at RGIA dropped due to:
+<ul>
+<li>travel restrictions</li>
+<li>off-season, hence less people travelling, etc</li>
+</ul>
+</li>
+<li>Is there any negative sentiment/feedback going around about Uber across social media that might be causing users to prefer other services?</li>
+</ol>
+<p>This gives us a sense of whether the situation is &ldquo;normal&rdquo; in some essence. If we find out that passenger traffic at RGIA is as usual, Uber availability is as always, and there have been no changes in the way Uber operates at RGIA, we can move on.</p>
+<p>Now we can have a look at what has happened on the <strong>product front</strong> over the last week.</p>
+<ol>
+<li>Have we released any updates to the app, perhaps in the UI, that is confusing users and leading to drop-off?</li>
+<li>Have we changed anything in the way Uber bookings work, i.e., in the search for destination, choose ride, set payment?</li>
+</ol>
+<p>If we find out that nothing has changed on the product front in the last week, that no major update has happened for a while, then we can be sure that the 50% drop isn&rsquo;t because of the product itself but because of changes in the ecosystem that Uber exists in, that is causing a migration in users.</p>
+<p>Let&rsquo;s have a look at what&rsquo;s happening on the <strong>user front</strong>.</p>
+<ol>
+<li>Has our DAU dropped? A drop at the start of the funnel automatically indicates a drop throughout.</li>
+<li>Upon mapping the user journey: opening the app -&gt; typing in their destination -&gt; choosing their ride — where is the drop-off happening?</li>
+</ol>
+<p>If DAU itself has dropped: since we know that passenger traffic at RGIA is as always, passengers must be using some other option over Uber. Since nothing has changed on our end, we can perform a competitor analysis.
+<em>Note: For the sake of simplicity, let&rsquo;s assume that the competition is restricted to Ola and the airport shuttle.</em></p>
+<ol>
+<li>Has the competition introduced any new campaigns in the last week which would push users to their products? Perhaps, a new marketing campaign, new features for RGIA passengers, etc.</li>
+<li>Has the competition made their options more attractive/economically feasible to passengers? Perhaps, a drop in their fares, hence appealing to more users and being the obvious choice to pick?</li>
+</ol>
+<p>If DAU seems to be as usual: let&rsquo;s see where the drop-off between opening the app and booking a ride is happening. Since nothing has changed on the product front, we should see the same number of users typing in their destination. The last step before they book the ride is where they must be dropping off — the <em>choose your ride</em> section where the available options and prices are listed.
+A drop over here must mean that users are finding better options/better prices elsewhere and hence not going ahead with their booking.</p>
+<p><strong>Conclusion</strong><br>
+Upon seeing that nothing changed in terms of passengers or the way Uber functions at RGIA, nothing was different with the app, and our DAU hadn&rsquo;t dropped, we looked further down the funnel to see where the drop-off was happening — we realized it was occuring once users saw the available options and fares screen. Having an understanding of the user base in India, we know that most users are price-hunters, i.e., among two equivalent options, they will pick the option which has the best fare. In our competitor analysis, we found out that the competition had dropped their fares over the last week. Both these factors together can lead to the following satisfactory conclusion:</p>
+<p><strong>Passengers, upon having a look at all the available options to reach their destination, saw that these options were providing their services at a better fare than Uber. They then proceeded to go ahead with these options, hence leading to a drop in bookings at Uber.</strong></p>
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://thearvindas.github.io/tags/product/">product</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="Twitter"
+         href="https://twitter.com/thearvindas"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://thearvindas.github.io/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="LinkedIn"
+         href="https://www.linkedin.com/in/arvin-das/"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://thearvindas.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>
+              © 2021
+          </p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.575dda8d49ee02639942c63564273e6da972ab531dda26a08800bdcb477cbd7f.js" integrity="sha256-V13ajUnuAmOZQsY1ZCc&#43;balyq1Md2iagiAC9y0d8vX8=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
