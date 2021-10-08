@@ -7,40 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Oct 2021 09:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>misc</title>
-      <link>https://thearvindas.github.io/tags/misc/</link>
-      <pubDate>Mon, 04 Oct 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/misc/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 08 Oct 2021 00:19:29 -0400</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>learnings</title>
       <link>https://thearvindas.github.io/tags/learnings/</link>
-      <pubDate>Sun, 26 Sep 2021 09:19:29 -0400</pubDate>
+      <pubDate>Fri, 08 Oct 2021 00:19:29 -0400</pubDate>
       
       <guid>https://thearvindas.github.io/tags/learnings/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>notes</title>
+      <link>https://thearvindas.github.io/tags/notes/</link>
+      <pubDate>Fri, 08 Oct 2021 00:19:29 -0400</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>product</title>
       <link>https://thearvindas.github.io/tags/product/</link>
-      <pubDate>Thu, 23 Sep 2021 09:19:29 -0400</pubDate>
+      <pubDate>Fri, 08 Oct 2021 00:19:29 -0400</pubDate>
       
       <guid>https://thearvindas.github.io/tags/product/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>notes</title>
-      <link>https://thearvindas.github.io/tags/notes/</link>
-      <pubDate>Sat, 11 Sep 2021 09:19:29 -0400</pubDate>
+      <title>misc</title>
+      <link>https://thearvindas.github.io/tags/misc/</link>
+      <pubDate>Mon, 04 Oct 2021 09:19:29 -0400</pubDate>
       
-      <guid>https://thearvindas.github.io/tags/notes/</guid>
+      <guid>https://thearvindas.github.io/tags/misc/</guid>
       <description></description>
     </item>
     
