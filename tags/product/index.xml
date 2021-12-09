@@ -20,18 +20,6 @@ approaching a product design exercise Whenever you encounter a problem, don&amp;
     </item>
     
     <item>
-      <title>RCA: Uber&#39;s rides from RGIA have dropped by 50% in the last week</title>
-      <link>https://thearvindas.github.io/work/rca-ubers-rides-from-rgia-have-dropped-by-50-in-the-last-week/</link>
-      <pubDate>Thu, 23 Sep 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://thearvindas.github.io/work/rca-ubers-rides-from-rgia-have-dropped-by-50-in-the-last-week/</guid>
-      <description>Photo by Dan Gold on UnsplashThis is my attempt at a root-cause analysis on the following problem statement:
-Uber&amp;rsquo;s rides from RGIA have dropped by 50% over the last week. Diagnose the problem.
-50% is a massive number. Our first check will be on the metrics:
- Are we getting the correct metrics on our dashboard? Is there any technical hitch which may be causing incorrect data to appear?</description>
-    </item>
-    
-    <item>
       <title>high agency, the PM craft, and great people</title>
       <link>https://thearvindas.github.io/blog/high-agency-the-pm-craft-and-great-people/</link>
       <pubDate>Sat, 11 Sep 2021 09:19:29 -0400</pubDate>
