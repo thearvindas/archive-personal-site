@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 10 Jan 2022 00:19:29 +0600</lastBuildDate><atom:link href="https://thearvindas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 00:19:29 +0600</lastBuildDate><atom:link href="https://thearvindas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>flight safety, lack of bandwidth, and the art of saying no</title>
+      <link>https://thearvindas.github.io/blog/flight-safety-lack-of-bandwidth-and-the-art-of-saying-no/</link>
+      <pubDate>Fri, 14 Jan 2022 00:19:29 +0600</pubDate>
+      
+      <guid>https://thearvindas.github.io/blog/flight-safety-lack-of-bandwidth-and-the-art-of-saying-no/</guid>
+      <description>Here are my notes/highlights/favourite parts from The Art of Saying No by Damon Zahariades:
+  Saying no to people is one of the most important skills you can develop. It frees you to pursue your own interests, both personal and professional. To that end, it’ll boost your productivity, improve your relationships, and fill you with a sense of confident calm that may seem alien to you at this moment.</description>
+    </item>
+    
     <item>
       <title>small wins, dopamine hits, and documenting 2022 [keeps updating]</title>
       <link>https://thearvindas.github.io/blog/small-wins-dopamine-hits-and-documenting-2022/</link>
-      <pubDate>Mon, 10 Jan 2022 00:19:29 +0600</pubDate>
+      <pubDate>Thu, 13 Jan 2022 00:19:29 +0600</pubDate>
       
       <guid>https://thearvindas.github.io/blog/small-wins-dopamine-hits-and-documenting-2022/</guid>
       <description>created: jan 2nd, 2022
-last updated: jan 10th, 2022
+last updated: jan 13th, 2022
 This list is a documentation of all the things that made me happy in 2022 — the small wins that keep me moving. This is not to show off but to bring a sense of gratitude in finding comfort in the smaller things. I have good days and I have bad days and on my bad days, there is comfort in knowing that this is something I can come to.</description>
     </item>
     
@@ -176,7 +186,7 @@ The process started way back at the start of June. I started looking up static s
       <guid>https://thearvindas.github.io/about/</guid>
       <description>“The more I live, the more I learn. The more I learn, the more I realize, the less I know.” – Michel Legrand
 I&amp;rsquo;m Arvin, a 20 y/o currently living in Hyderabad, India. By day, I&amp;rsquo;m a Mechatronics undergrad at MIT Manipal. By night, I love learning about building great product, sleek design and understanding how to hack into mental aesthetics.
-I&amp;rsquo;d love to connect with you on Twitter or LinkedIn !</description>
+I&amp;rsquo;m currently working as a Product Management Intern at Zuperly , a learn-tech startup based out of Hyderabad.</description>
     </item>
     
   </channel>
