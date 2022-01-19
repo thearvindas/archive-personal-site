@@ -7,29 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 19 Jan 2022 05:19:29 +0530</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>keeps-updating</title>
-      <link>https://thearvindas.github.io/tags/keeps-updating/</link>
-      <pubDate>Wed, 19 Jan 2022 05:19:29 +0530</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/keeps-updating/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>misc</title>
-      <link>https://thearvindas.github.io/tags/misc/</link>
-      <pubDate>Wed, 19 Jan 2022 05:19:29 +0530</pubDate>
-      
-      <guid>https://thearvindas.github.io/tags/misc/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 19 Jan 2022 00:19:29 +0600</lastBuildDate><atom:link href="https://thearvindas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>books</title>
       <link>https://thearvindas.github.io/tags/books/</link>
-      <pubDate>Fri, 14 Jan 2022 00:19:29 +0600</pubDate>
+      <pubDate>Wed, 19 Jan 2022 00:19:29 +0600</pubDate>
       
       <guid>https://thearvindas.github.io/tags/books/</guid>
       <description></description>
@@ -38,7 +20,7 @@
     <item>
       <title>learnings</title>
       <link>https://thearvindas.github.io/tags/learnings/</link>
-      <pubDate>Fri, 14 Jan 2022 00:19:29 +0600</pubDate>
+      <pubDate>Wed, 19 Jan 2022 00:19:29 +0600</pubDate>
       
       <guid>https://thearvindas.github.io/tags/learnings/</guid>
       <description></description>
@@ -47,9 +29,27 @@
     <item>
       <title>notes</title>
       <link>https://thearvindas.github.io/tags/notes/</link>
-      <pubDate>Fri, 14 Jan 2022 00:19:29 +0600</pubDate>
+      <pubDate>Wed, 19 Jan 2022 00:19:29 +0600</pubDate>
       
       <guid>https://thearvindas.github.io/tags/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keeps-updating</title>
+      <link>https://thearvindas.github.io/tags/keeps-updating/</link>
+      <pubDate>Tue, 18 Jan 2022 05:19:29 +0530</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/keeps-updating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>https://thearvindas.github.io/tags/misc/</link>
+      <pubDate>Tue, 18 Jan 2022 05:19:29 +0530</pubDate>
+      
+      <guid>https://thearvindas.github.io/tags/misc/</guid>
       <description></description>
     </item>
     
